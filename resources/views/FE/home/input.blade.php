@@ -115,9 +115,6 @@
                 <label for="quantity">Quantity (e.g., Number of Trees):</label>
                 <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
 
-                <label for="image">Upload Picture of Tree Planting:</label>
-                <input type="file" id="image" name="image" accept="image/*" required>
-
                 <label for="location">Google Maps Link (Location of Tree Planting):</label>
                 <input type="url" id="location" name="location" placeholder="Paste the Google Maps link" required>
 

@@ -28,3 +28,5 @@ Route::controller(PageController::class)
     ->group(function () {
         Route::get('/input', 'pageInputData')->name('input');
     });
+
+Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');

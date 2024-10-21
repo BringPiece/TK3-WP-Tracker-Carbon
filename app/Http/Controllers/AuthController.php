@@ -27,7 +27,7 @@ class AuthController extends Controller
             Auth::login($user);
             // session(['user_name' => $user->name]);
 
-            return redirect()->route('homes')->with('success', 'Signed in successfully!');
+            return redirect()->route('dashboard')->with('success', 'Signed in successfully!');
         }
 
         return redirect()->back()->withInput()->withErrors([
